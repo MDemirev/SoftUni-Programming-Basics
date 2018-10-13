@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Beer And Chips", "02. B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Football Kit", "02. Football Kit\02. Football Kit.csproj", "{1DBE7640-C0D1-4E69-B6FF-49D55028DAF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Game Statistics", "03. Game Statistics\03. Game Statistics.csproj", "{49F99237-2DCF-4621-843A-D88C5C2DA328}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1DBE7640-C0D1-4E69-B6FF-49D55028DAF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DBE7640-C0D1-4E69-B6FF-49D55028DAF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DBE7640-C0D1-4E69-B6FF-49D55028DAF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F99237-2DCF-4621-843A-D88C5C2DA328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F99237-2DCF-4621-843A-D88C5C2DA328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F99237-2DCF-4621-843A-D88C5C2DA328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F99237-2DCF-4621-843A-D88C5C2DA328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

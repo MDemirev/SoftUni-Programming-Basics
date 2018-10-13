@@ -10,12 +10,28 @@ namespace _02.Football_Kit
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            var tshirPrice = float.Parse(Console.ReadLine());
+            var sumForBall = float.Parse(Console.ReadLine());
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+            var shortPrice = tshirPrice * 0.75;
+            var socksPrice = shortPrice * 0.2;
+            var bootsPrice = (tshirPrice + shortPrice) * 2;
+            var totalPrice = tshirPrice + shortPrice + socksPrice + bootsPrice;
+
+            var totalPriceAfterDiscount = totalPrice - (totalPrice * 15 / 100);
+
+
+            if (totalPriceAfterDiscount >= sumForBall)
+            {
+                Console.WriteLine("Yes, he will earn the world-cup replica ball!");
+                Console.WriteLine($"His sum is {totalPriceAfterDiscount.ToString("0.00")} lv.");
+            }
+            else
+            {                
+                Console.WriteLine("No, he will not earn the world-cup replica ball.");
+                Console.WriteLine($"He needs {(sumForBall - totalPriceAfterDiscount).ToString("0.00")} lv. more.");
+            }
+                    
         }
     }
 }
